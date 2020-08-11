@@ -1,0 +1,16 @@
+.recommended-videos {
+    background-color: #f9f9f9;
+}
+
+.recommended-videos > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.recommended {
+    width: 100%;
+    background-color: #181818;
+}
+
+.recommended-videos {
+    background-color: #181818;
+}

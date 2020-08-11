@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    padding-bottom: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #202020;
+}
+
+.header-left {
+    display: flex;
+}
+
+.hamburger-button {
+    font-size: 24px !important;
+    color: #fff;
+    margin-top: 1px;
+}
+
+.header-logo-icon {
+    height: 18px;
+    object-fit: contain;
+    margin-top: 4px;
+    margin-left: 24px;
+}
+
+.header-logo-text {
+    display: inline-block;
+    color: #fff;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+    width: 34%;
+    background-color: #121212;
+    border: 1px solid #303030;
+    border-radius: 2px;
+}
+
+.header-input input {
+    background-color: #121212;
+    color: #6f6f6f;
+    font-size: 16px;
+    color: #fff;
+    padding: 4px;
+}
+
+.header-input input:focus {
+    outline: none;
+}
+
+.header-input-btn {
+    background-color: #323232;
+    color: #6f6f6f;
+    border: none;
+    padding: 1px 20px;
+}
+
+.header-input-btn-icon {
+    padding-top: 3px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+}
+
+.header-icon {
+    margin-right: 24px;
+    cursor: pointer;
+    color: #fff;
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.header-icon-avatar {
+    height: 32px !important;
+    width: 32px !important;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+
+.header-input > input {
+    flex: 1;
+    border: none;
+}

@@ -1,10 +1,18 @@
 import React from "react";
+
+import Header from "./components/header/Header";
+import Sidebar from "./components/sidebar/Sidebar";
+import Recommended from "./components/recommended/Recommended";
 import "./App.css";
 
 function App() {
     return (
         <div className="app">
-            <h1>Hello</h1>
+            <Header />
+            <div className="app-page">
+                <Sidebar />
+                <Recommended />
+            </div>
         </div>
     );
 }

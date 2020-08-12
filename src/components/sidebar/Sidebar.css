@@ -1,5 +1,13 @@
 .sidebar {
     width: 274px;
     background-color: #212121;
-    overflow-y: auto;
+    padding-top: 12px;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: #383838;
+    margin-top: 12px;
+    margin-bottom: 10px;
 }

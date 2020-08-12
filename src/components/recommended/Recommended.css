@@ -9,8 +9,19 @@
 .recommended {
     width: 100%;
     background-color: #181818;
+    padding: 34px 20px 0px 88px;
+}
+
+.recommended > h2 {
+    margin-left: 5px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .recommended-videos {
     background-color: #181818;
+    display: flex;
+    flex-wrap: wrap;
 }

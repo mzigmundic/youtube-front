@@ -64,8 +64,16 @@
     padding: 1px 20px;
 }
 
+.header-input-btn {
+    cursor: pointer;
+}
+
 .header-input-btn-icon {
     padding-top: 3px;
+}
+
+.header-input-btn:hover .header-input-btn-icon {
+    color: #8f8f8f;
 }
 
 .header-icons {

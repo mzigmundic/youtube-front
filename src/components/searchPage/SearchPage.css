@@ -1,0 +1,24 @@
+.search-page {
+    width: 100%;
+    background-color: #181818;
+    padding: 20px 0px 20px 200px;
+}
+
+.search-page-filter {
+    display: flex;
+    align-items: center;
+    color: #ababab;
+}
+
+.search-page-filter > h2 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.search-page > hr {
+    height: 1px;
+    border: 0;
+    background-color: #303030;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}

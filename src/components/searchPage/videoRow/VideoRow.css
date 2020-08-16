@@ -1,0 +1,36 @@
+.video-row {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.video-row > img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}
+
+.video-row-text {
+    margin-left: 14px;
+}
+
+.video-row-text > h3 {
+    color: #fff;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.video-row-description {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.video-row-headline {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.video-row-subs {
+    padding: 4px;
+}
